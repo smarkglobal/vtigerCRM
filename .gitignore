@@ -1,0 +1,9 @@
+/.htaccess
+cache/
+config.php
+config.db.php
+config.inc.php
+config.csrf-secret.php
+config.performance.php
+config.template.php
+.htaccess

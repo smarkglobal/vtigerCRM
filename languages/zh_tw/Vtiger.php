@@ -1,0 +1,978 @@
+<?php
+/*+***********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * 繁體中文語言包 - Vtiger通用
+ * 版本: 6.0.0 
+ * 作者: 有點壞壞 | http://summer10920.blogspot.tw/
+ * 更新日期: 2013-9-22
+ * All Rights Reserved. 
+ *************************************************************************************/
+$languageStrings = array(
+	// Footer頁腳
+	'APPTITLE' => 'vtiger CRM',
+	'POWEREDBY'=> 'Powered by vtiger CRM',
+	'LBL_READ_LICENSE' => '閱讀許可協議',
+	'LBL_PRIVACY_POLICY' => '隱私條款',
+
+	// Common Actions常用操作
+	'LBL_SELECT_ALL' => '選擇所有',
+	'LBL_SELECT_TO_LOAD_LIST' => '選擇並載入列表',
+	'LBL_CREATING_NEW' => '新建',
+	'LBL_EDITING' => '編輯中',
+	'LBL_SAVE' => '保存',
+	'LBL_CANCEL' => '取消',
+	'LBL_BACK' => '返回',
+	'LBL_IMPORT' => '導入',
+	'LBL_EXPORT' => '導出',
+	'LBL_FIND_DUPLICATES' => '查找重複項',
+	'LBL_MORE' => '更多',
+	'LBL_ACTIONS' => '操作',
+    'LBL_ADD' => '添加',
+	'LBL_EDIT' => '編輯',
+	'LBL_DELETE' => '刪除',
+	'LBL_SETTINGS'=> '設置',
+	'LBL_ADD_COMMENT' => '添加評論',
+	'LBL_EDIT_FIELDS' => '編輯字段',
+	'LBL_EDIT_WORKFLOWS' => '編輯工作流',
+	'LBL_EDIT_PICKLIST_VALUES' => '編輯下拉菜單項',
+	'LBL_EDIT_MAILSCANNER' => '郵件轉換',
+	'LBL_RECORD_DELETE' => '你正在試圖查看的記錄已被刪除。',
+	'LBL_RECORD_NOT_FOUND' => '你正在嘗試訪問的記錄未找到。',
+	'LBL_EDIT_REASON' => '編輯原因',
+
+	//'LBL_EDIT_CURRENT_FILTER' => 'Edit Current Filter',
+	//'LBL_DELETE_CURRENT_FILTER' => 'Delete Current Filter',
+	'LBL_SELECT' => '選擇',
+	'LBL_CLEAR' => '清除',
+	'LBL_YES' => '是',
+	'LBL_NO' => '沒有',
+	'LBL_SHOW_COMPLETE_DETAILS' => '詳細信息',
+    'LBL_MASS_EDITING' => 'Mass Editing',
+	'LBL_DESELECT_ALL_RECORDS' => '取消選擇所有記錄',
+	'LBL_QUICK_CREATE' => '快速創建',
+	'LBL_SEND_EMAIL' => '發送 Email',
+	//SEND EMAIL translations
+	'LBL_ALL_EMAILS' => '所有 email 賬戶',
+	'LBL_MUTIPLE_EMAIL_SELECT_ONE' => '此記錄有多個Email地址。請選擇一個收信Email地址',
+	//SEND EMAIL translations
+	'LBL_GO_TO_FULL_FORM' => '切換成完整編輯',
+	'LBL_SEND_SMS' => '發送SMS',
+	'LBL_FOUND' => '找到',
+	'LBL_CLICK_ADD' => '點擊添加',
+	'LBL_ADD_MORE_FIELDS' => '添加更多字段',
+	'LBL_ADD_NOTE' => '添加文檔',
+	'LBL_CREATE_NEW' => '新建',
+    'LBL_ADD_EVENT' => '添加事件',
+    'LBL_ADD_TASK' => '添加任務',
+	'LBL_MARKETING_AND_SALES' => '市場&銷售',
+	'LBL_TOOLS_HEADER' => '工具',
+	'LBL_SUPPORT' => '支持',
+	'LBL_INVENTORY' => '盤點',
+	'LBL_ANALYTICS' => '分析',
+	'LBL_HOME' => '首頁',
+
+	// Common Link Labels 通用鏈接標籤
+	'LBL_LAST_VIEWED_RECORDS' => '最近瀏覽記錄',
+	'LBL_DASHBOARD' => '檢視工具',
+	'LBL_USER_SETTINGS' => '用戶設置',
+	'LBL_MY_PREFERENCES' => '個人選項',
+	'LBL_SIGN_OUT' => '登出',
+	'LBL_HELP' => '幫助',
+	'LBL_DOCUMENTATION' => '文檔',
+	'LBL_VIDEO_TUTORIAL' => '視頻教程',
+	'LBL_FEEDBACK' => '反饋',
+	'LBL_CRM_SETTINGS' => 'CRM 設置',
+	'LBL_ON_DEMAND_ADMIN' => '添加 / 刪除用戶',
+	'LBL_ANNOUNCEMENT' => '公告',
+	'LBL_CALENDAR' => '日程',
+	'LBL_POST' => '提交',
+	'LBL_GUIDER' => '嚮導',
+	'LBL_DISPLAY_TYPE' => '顯示類型',
+	'LBL_DISPLAY_WIDETYPE' => '寬',
+	'LBL_DISPLAY_MEDIUMTYPE' => '中',
+	'LBL_DISPLAY_NARROWTYPE' => '窄',
+	'LBL_TAG_THIS_RECORD' => '標籤記錄',
+	'LBL_PAGE' => '頁',
+	'LBL_LISTVIEW_PAGE_JUMP' => '跳轉到',
+	'LBL_PROFILE_PASSWORD' => '檔案 / 密碼',
+
+	// Common Fields 通用字段
+	'LBL_USER' => '用戶',
+	'LBL_GROUP' => '組',
+	'Last Modified By' => '最後修訂者',
+	'Created Time' => '創建時間',
+	'Modified Time' => '修改時間',
+	'Description' => '描述',
+	'Assigned To'=>'負責人',
+
+	//Loading Labels載入標籤
+	'LBL_LOADING' => '載入中',
+	'LBL_LOADING_WIDGET' => '正在加載窗口小部件',
+	'LBL_LOADING_LISTVIEW_CONTENTS'	=> '載入中，請稍候...',
+
+	// Detail View 細節視圖
+	'LBL_UPDATES' => '更新',
+	'LBL_SHOW_FULL_DETAILS' => '顯示詳細內容',
+	'LBL_SUMMARY_DETAILS' => '摘要信息',
+	'LBL_ADD_NEW_COMMENT' =>'添加評論',
+	'LBL_NO_UPDATES' => '沒有更新',
+	'LBL_ACTIVITIES' => '分類',
+	'LBL_NO_PENDING_ACTIVITIES' => '沒有待辦事項',
+	'LBL_SUMMARY' => '摘要',
+	'LBL_DETAILS' => '詳細內容',
+
+	// Popup window 彈出窗口
+	'LBL_SEARCH_FOR' => '搜索',
+	'LBL_IN' => 'in',
+	'LBL_TYPE_SEARCH' => '查找..',
+	'LBL_SEARCH_BUTTON' => '搜索按鈕',
+	'LBL_ADVANCE_SEARCH' => '進階搜尋',
+	'LBL_LOADING_PLEASE_WAIT' => '載入中，請稍候...',
+	'LBL_PLEASE_SELECT_MODULE' => '請選擇模塊',
+
+	//DropDown Category 下拉類別
+	'LBL_USERS' => '用戶',
+	'LBL_GROUPS' => '組',
+
+	//EditView Form Links編輯視圖表單鏈接
+	'LBL_FULL_FORM' => '完整表單',
+	'LBL_SIMPLE_FORM' => '簡易表單',
+
+	//Recent Comments 最近評論
+	'LBL_ADD_YOUR_COMMENT_HERE' => '在這裡添加你的評論...',
+	'LBL_REASON_FOR_CHANGING_COMMENT' => '修改評論的原因',
+	'LBL_REPLY' => '回復',
+	'LBL_VIEW_THREAD' => '查看主題',
+	'LBL_NO_COMMENTS' => '沒有評論',
+	'LBL_REPLIES' => '回復',
+
+	//Translation for all modules所有模塊的翻譯
+	'Accounts' => '客戶',
+	'Assets' => '資產',
+	'Calendar' => '日程',
+	'Campaigns' => '營銷活動',
+	'Contacts' => '聯繫人',
+	'Documents' => '文檔',
+	'Leads' => '潛在客戶',
+	'ModComments' => '評論',
+	'Potentials' => '銷售機會',
+	'PriceBooks' => '價格表',
+	'Products' => '產品',
+	'Project' => '項目',
+	'ProjectMilestone' => '項目里程碑',
+	'ProjectTask' => '項目任務',
+	'ServiceContracts' => '服務合同',
+	'Services' => '服務',
+	'Vendors' => '供應商',
+	'Rss' => 'RSS',
+	'Quotes'=>'報價單',
+	'PurchaseOrder'=>'採購訂單',
+	'SalesOrder'=>'銷售訂單',
+	'Invoice'=>'出貨單',
+	'MailManager' => '郵件管理',
+
+
+	//Basic String Translation基本字符串翻譯
+	'LBL_ADD_RECORD' => '添加記錄',
+	'LBL_RECENTLY_MODIFIED' => '最近修改',
+	'LBL_RECORDS_LIST' => '記錄列表',
+	'LBL_RECORD_SUMMARY' => '模塊摘要',
+	'LBL_RECORD_SUMMARY' => '模塊詳細信息',
+	'LBL_ACCESS_DENIED_FOR' => '訪問被拒絕',
+	'LBL_GO_BACK' => '返回',
+	'LBL_NO_DATA_AVAILABLE' => '無可用數據',
+
+	// Global Search全局檢索
+	'LBL_GLOBAL_SEARCH' => '請輸入關鍵字',
+	'LBL_ALL_RECORDS' => '所有記錄',
+	'LBL_NO_RECORDS_FOUND' => '未找到記錄',
+
+	//Filters & Advance Filter 過濾&高級過濾
+	'LBL_AND' => '和',
+	'LBL_OR' => '或',
+	'LBL_NONE' => 'NONE',
+	'LBL_APPROVE' => '允許',
+	'LBL_DENY' => '拒絕',
+	'LBL_EQUALS' => '等於',
+	'LBL_NOT_EQUAL_TO' => '不等於',
+	'LBL_STARTS_WITH' => '開始於',
+	'LBL_ENDS_WITH' => '結束於',
+	'LBL_CONTAINS' => '包含',
+	'LBL_DOES_NOT_CONTAIN' => '不包含',
+	'LBL_LESS_THAN' => '小於',
+	'LBL_GREATER_THAN' => '大於',
+	'LBL_LESS_THAN_OR_EQUAL' => '小於等於',
+	'LBL_GREATER_OR_EQUAL' => '大於等於',
+	'LBL_BEFORE' => '之前',
+	'LBL_AFTER' => '之後',
+	'LBL_BETWEEN' => '之間',
+	'LBL_SEARCH' => '檢索',
+	'LBL_SEARCH_IN' => '搜索範圍',
+	'LBL_ADD_CONDITION' => '添加條件',
+	'LBL_ADD_GROUP' => '添加條件組',
+	'LBL_FILTER_CONDITIONS' => '篩選條件',
+	'LBL_ALL_CONDITIONS' => '所有條件',
+	'LBL_ALL_CONDITIONS_DESC' => '所有條件都必須滿足',
+	'LBL_ANY_CONDITIONS' => '任意條件',
+	'LBL_ANY_CONDITIONS_DESC' => '必須至少一個條件滿足',
+	'LBL_SELECT_FIELD' => '選擇字段',
+	'LBL_SELECT_MODULE' => '選擇模塊',
+	'LBL_CREATE_NEW_FILTER' => '創建新篩選',
+	'All' => '所有',
+	'Others' => '其它',
+	'Pending' => '選定',
+	'Public' => '公共',
+
+	//Advance Search 高級檢索
+	'LBL_SAVE_FILTER' => '保存篩選',
+	'LBL_SAVE_MODIFY_FILTER' => '保存/修改篩選',
+	'LBL_SEARCH_RESULTS' => '檢索結果',
+	'LBL_SAVE_AS_FILTER' => '另存為篩選',
+
+	//Exception String Translation
+	'LBL_NOT_ACCESSIBLE' => '拒絕訪問',
+
+	//Line Items 項目（產品）行
+	'LBL_ITEM_DETAILS'=> '產品明細',
+	'LBL_CURRENCY' => '貨幣',
+	'LBL_TAX_MODE' => '稅制模式',
+	'LBL_INDIVIDUAL' => '單獨計稅',
+	'LBL_GROUP' => '組合計稅',
+	'LBL_TOOLS' => '工具',
+	'LBL_ITEM_NAME' => '項目名稱',
+	'LBL_QTY_IN_STOCK' => '庫存',
+	'LBL_QTY' => '數量',
+	'LBL_LIST_PRICE' => '定價',
+	'LBL_TOTAL' => '合計',
+	'LBL_NET_PRICE' => '淨價',
+	'LBL_DISCOUNT' => '折扣',
+	'LBL_TOTAL_AFTER_DISCOUNT' => '折後總價',
+	'LBL_TAX' => '稅費',
+	'LBL_ADD_PRODUCT' => '添加產品',
+	'LBL_ADD_SERVICE' => '添加服務',
+	'LBL_ITEMS_TOTAL' => '項目總計',
+	'LBL_SHIPPING_AND_HANDLING_CHARGES' => '運費及手續費',
+	'LBL_PRE_TAX_TOTAL' => '稅前合計',
+	'LBL_TAX_FOR_SHIPPING_AND_HANDLING' => '運費及手續費稅',
+	'LBL_SET_SHIPPING_AND_HANDLING_TAXES_FOR' => '設置運費及手續費為',
+	'LBL_ADJUSTMENT' => '調整',
+	'LBL_DEDUCT' => '扣減',
+	'LBL_GRAND_TOTAL' => '合計',
+	'LBL_ZERO_DISCOUNT' => '無折扣',
+	'LBL_OF_PRICE' => 'Price',
+	'LBL_DIRECT_PRICE_REDUCTION' => '直接降價',
+	'LBL_SET_DISCOUNT_FOR' => '設置折扣為',
+	'LBL_STOCK_NOT_ENOUGH' => '庫存不足',
+	'LBL_MAX_QTY_SELECT' => '最大值為',
+	'LBL_DRAG' => '按住鼠標拖動',
+	'LBL_TOTAL_TAX_AMOUNT' => '稅款總額',
+	'LBL_DIRECT_AMOUNT_DISCOUNT' => '直接金額折扣',
+	'LBL_FINAL_DISCOUNT_AMOUNT' => '最終折扣金額',
+	'LBL_MORE_CURRENCIES' => '更多貨幣各類',
+	'LBL_SET_TAX_FOR' => '設置稅為',
+	'LBL_GROUP_TAX' => '組合稅為',
+	'LBL_BILLING_ADDRESS_FROM' => '複製賬單寄送地址',
+	'LBL_SHIPPING_ADDRESS_FROM' => '複製送貨地址',
+	'LBL_COPY_SHIPPING_ADDRESS' => '送貨地址',
+	'LBL_COPY_BILLING_ADDRESS' => '賬單地址',
+	'LBL_0' => '簽到',
+
+	//DetailView Actions 詳細查看動作
+	'LBL_CREATE' => '創建',
+	'LBL_GENERATE' => '生成',
+    'LBL_DUPLICATE' => '複製',
+	'Add Note' => '添加文檔',
+
+	//Dashboard String儀表板字符串
+	'LBL_ADD_WIDGET' => '添加小工具',
+	'LBL_COMMENTS' => '評論',
+	'LBL_REFRESH' => '刷新',
+	'LBL_CLOSE' => '關閉',
+	'LBL_ALL' => '全部',
+	'LBL_UPDATED' => '已更新',
+	'LBL_FROM' => '從',
+	'LBL_TO' => '至',
+	'LBL_ON' => '在',
+	'LBL_OF' => '的',
+	'LBL_BY' => '由',
+	'LBL_ADDED' => '添加',
+	'LBL_FOR' => '為',
+	'LBL_CREATED' => '創建',
+	'LBL_DELETED' => '刪除',
+	'LBL_RESTORED' => '恢復',
+	'LBL_COMMENTED' => '評論',
+	'LBL_REMOVED' => '移除',
+	'LBL_REMOVE' => '移除',
+	'LBL_AT' => '在',
+	'LBL_MINE' => '我的',
+	'History' => '歷史',
+	'Upcoming Tasks' => '即將開始的任務',
+	'LBL_YEAR' => '年',
+	'LBL_YEARS' => '年',
+	'LBL_MONTH' => '月',
+	'LBL_MONTHS' => '月',
+	'LBL_DAY' => '日',
+	'LBL_DAYS' => '天',
+	'LBL_HOUR' => '小時',
+	'LBL_HOURS' => '小時',
+	'LBL_MINUTE' => '分',
+	'LBL_MINUTES' => '分',
+	'LBL_SECOND' => '秒',
+	'LBL_SECONDS' => '秒',
+	'LBL_JUSTNOW' => '剛才',
+	'LBL_CUSTOM_INFORMATION' => '自定義信息',
+	'LBL_NO_RECENT_UPDATES' => '最近沒有更新',
+	'LBL_NO_DATA' => '沒有數據',
+	'LBL_PERMISSION_DENIED' => '權限被拒絕',
+	'LBL_HANDLER_NOT_FOUND' => 'Handler not found',
+	'LBL_FILTER' => '過濾器',
+	'LBL_DUE' => 'due in',
+	'LBL_DAYS' => '天',
+	'LBL_COMPLETED' => '已完成',
+	'LBL_AGO' => '以前',
+	'LBL_CHANGED' => '變更',
+	'Single_Users' => '用戶',
+	'LBL_MATCHED_THIS_CRITERIA'=> '匹配此條件',
+	'LBL_NO_SCHEDULED_ACTIVITIES' => '沒有預定的活動',
+	'LBL_NO_OVERDUE_ACTIVITIES' => '無逾期活動',
+	'LBL_NO_UPDATES_OR_COMMENTS' => '沒有更新或評論',
+	'LBL_MINI_LIST' => '迷你清單',
+	'LBL_NOTEPAD' => '記事本',
+	'LBL_NOTEPAD_NAME' => '記事本名稱',
+	'LBL_NOTEPAD_CONTENT' => '記事本內容',
+	'LBL_LAST_SAVED_ON' => '最後保存於',
+	'Mini List' => '迷你清單',
+	'Notebook' => '記事本',
+	'LBL_RESULT_FOR_THE_TAG' => '此標籤的結果',
+
+	// Basic Strings- custom view自定義視圖
+	'LBL_VIEW_NAME' => '視圖名稱',
+	'LBL_CREATE_VIEW' => '創建新視圖',
+	'LBL_BASIC_DETAILS' => '基本信息',
+	'LBL_CHOOSE_COLUMNS' => '選擇列和順序',
+	'LBL_MAX_NUMBER_FILTER_COLUMNS' => 'Max 12',
+	'LBL_FILTER_ON_DATE' => '篩選日期',
+	'LBL_CHOOSE_FILTER_CONDITIONS' => '選擇篩選條件',
+	'LBL_ADD_CONDITION' => '添加條件',
+	'LBL_SET_AS_DEFAULT' => '設為默認',
+	'LBL_LIST_IN_METRICS' => '在首頁關鍵指標中顯示',
+	'LBL_SET_AS_PUBLIC' => '設為公開',
+	'LBL_AND' => '和',
+	'LBL_OR' => '或',
+	'LBL_ADD_MORE_COLUMNS' => '添加更多列',
+	'LBL_ADD_GROUP' => '添加組',
+
+
+	//DateFilter Conditions日期篩選條件
+	'LBL_CUSTOM' => '自定義',
+	'LBL_PREVIOUS_FY' => '上一財年',
+	'LBL_CURRENT_FY' => '本財年',
+	'LBL_NEXT_FY' => '下一財年',
+	'LBL_PREVIOUS_FQ' => '上一財季',
+	'LBL_CURRENT_FQ' => '本財季',
+	'LBL_NEXT_FQ' => '下一財季',
+	'LBL_YESTERDAY' => '昨天',
+	'LBL_TODAY' => '今天',
+	'LBL_TOMORROW' => '明天',
+	'LBL_LAST_WEEK' => '上周',
+	'LBL_CURRENT_WEEK' => '本周',
+	'LBL_NEXT_WEEK' => '下周',
+	'LBL_LAST_MONTH' => '上月',
+	'LBL_CURRENT_MONTH' => '本月',
+	'LBL_NEXT_MONTH' => '下月',
+	'LBL_LAST_7_DAYS' => '最近7天',
+	'LBL_LAST_30_DAYS' => '最近30天',
+	'LBL_LAST_60_DAYS' => '最近60天',
+	'LBL_LAST_90_DAYS' => '最近90天',
+	'LBL_LAST_120_DAYS' => '最近120天',
+	'LBL_NEXT_30_DAYS' => '未來30天',
+	'LBL_NEXT_60_DAYS' => '未來60天',
+	'LBL_NEXT_90_DAYS' => '未來90天',
+	'LBL_NEXT_120_DAYS' => '未來120天',
+
+	//advanced Filter Options高級過濾選項
+	'LBL_NONE' => 'NONE',
+	'LBL_EQUALS' => '等於',
+	'LBL_NOT_EQUAL_TO' => '不等於',
+	'LBL_STARTS_WITH' => '開始於',
+	'LBL_ENDS_WITH' => '結束於',
+	'LBL_CONTAINS' => '包含',
+	'LBL_DOES_NOT_CONTAIN' => '不包含',
+	'LBL_LESS_THAN' => '小於',
+	'LBL_GREATER_THAN' => '大於',
+	'LBL_LESS_THAN_OR_EQUAL' => '小於等於',
+	'LBL_GREATER_OR_EQUAL' => '大於等於',
+	'LBL_BEFORE' => '之前',
+	'LBL_AFTER' => '之後',
+	'LBL_BETWEEN' => '間於',
+	'LBL_IS_EMPTY'=> '為空',
+
+	//Detail view summary widgets視圖摘要小部件
+	'LBL_OWNER' => '我的',
+	'LBL_CREATED_ON' => '創建於',
+	'LBL_MODIFIED_ON' => '修改於',
+	'LBL_MODIFIED' => '已修改',
+	'LBL_COMMENTED' => '已評論',
+
+    //calender set-reminder
+    'LBL_BEFORE_EVENT' => '在事件之前',
+
+	//Dashboard widgets
+	'History' => '歷史',
+	'Upcoming Activities' => '近期活動',
+	'Overdue Activities' => '逾期活動',
+	'Funnel' => '圖表',
+	'Potentials by Stage' => '銷售機會階段統計',
+	'Pipelined Amount' => '銷售渠道',
+	'Total Revenue' => '總營收',
+	'Top Potentials' => '熱門銷售機會',
+	'Forecast' => '預測',
+	'Leads Created' => '潛在客戶線索',
+	'Leads by Status' => '潛在客戶狀態統計',
+	'Leads by Source' => '潛在客戶來源統計',
+	'Leads by Industry' => '潛在客戶行業統計',
+	'Tickets by Status' => '服務單狀態統計',
+	'Open Tickets' => '待確認的服務單',
+	'Funnel Amount' => '分階段統計的總金額',
+
+	//Exports strings
+	'LBL_EXPORT_ALL_DATA' => '導出所有數據',
+	'LBL_EXPORT_DATA_IN_CURRENT_PAGE' => '導出當前頁數據',
+	'LBL_EXPORT_SELECTED_RECORDS' => '導出選定的記錄',
+	'LBL_EXPORT_RECORDS' => '導出記錄',
+	'LBL_NO_RECORD_SELECTED' => '未選擇記錄',
+	'LBL_CAN_NOT_REMOVE_DEFAULT_WIDGET' => '不能移除默認的部件',
+	'LBL_CUSTOM_VIEW_NAME_DUPLICATES_EXIST' => '篩選器已經存在',
+
+	'LBL_ADD_MANAGE_MODULES' => '添加 / 管理模塊',
+
+	// Added Common Keys for all modules所有模塊新增通用key
+	'Account Name' => '公司名稱',
+	'Add Comment' => '添加評論',
+	'Adjustment' => '調整',
+	'Annual Revenue' => '年度營收',
+	'Apparel'=>'服飾業',
+	'Banking'=>'銀行業',
+	'Billing Address' => '發票寄送地址',
+	'Billing City' => '鄉鎮市區',
+	'Billing Code' => '郵遞區號',
+	'Billing Country' => '國家',
+	'Billing Po Box' => '郵政信箱',
+	'Billing State' => '縣/市',
+	'Biotechnology'=>'生物技術',
+
+	//for SO PO and Quotes物流公司
+	'FedEx'=>'FedEx',
+	'UPS'=>'UPS',
+	'USPS'=>'USPS',
+	'DHL'=>'DHL',
+	'BlueDart'=>'BlueDart',
+	'Carrier' => '快遞公司',
+	'Category'=>'Category',
+	'Chemicals'=>'Chemicals',
+	'City' => '鄉鎮市區',
+	
+    //這是客戶來源
+	'Cold Call'=>'電話營銷',
+	'Existing Customer'=>'老客戶推薦',
+	'Self Generated'=>'自動生成',
+	'Employee'=>'員工推薦',
+	'Partner'=>'合作夥伴',
+	'Public Relations'=>'公共關係',
+	'Direct Mail'=>'郵件推銷',
+	'Conference'=>'論壇/會議',
+	'Trade Show'=>'展會',
+	'Web Site'=>'網站',
+	'Word of mouth'=>'口碑',
+	'Other'=>'其它',
+
+	//for leads and accounts潛在客戶
+	'--None--'=>'--無--',
+	'Acquired'=>'已獲得',
+	'Active'=>'啟用',
+	'Market Failed'=>'營銷失利',
+	'Project Cancelled'=>'項目取消',
+	'Shutdown'=>'中斷',
+	'Apparel'=>'服裝',
+	'Banking'=>'銀行',
+	'Biotechnology'=>'生物',
+	'Chemicals'=>'化工',
+	'Communications'=>'交通',
+	'Construction'=>'建築',
+	'Consulting'=>'咨詢',
+	'Education'=>'教育',
+	'Electronics'=>'電子',
+	'Energy'=>'能源',
+	'Engineering'=>'工程',
+	'Entertainment'=>'娛樂',
+	'Environmental'=>'環保',
+	'Finance'=>'金融',
+	'Food & Beverage'=>'食品與飲料',
+	'Government'=>'政府',
+	'Healthcare'=>'保健',
+	'Hospitality'=>'醫院',
+	'Insurance'=>'保險',
+	'Machinery'=>'機械',
+	'Manufacturing'=>'製造',
+	'Media'=>'媒體',
+	'Not For Profit'=>'非盈利機構',
+	'Recreation'=>'休閒',
+	'Retail'=>'零售',
+	'Shipping'=>'航運公司',
+	'Technology'=>'科技',
+	'Telecommunications'=>'電信',
+	'Transportation'=>'運輸',
+	'Utilities'=>'公共事業',
+
+	'Contact Name' => '聯繫人',
+	'Conversion Rate' => '轉換率',
+
+	'Shipping Address' => '送貨地址',
+	'Shipping City' => '鄉鎮市區',
+	'Shipping State' => '縣/市',
+	'Shipping Code' => '郵遞區號',
+	'Shipping Country' => '國家',
+	'Shipping Po Box' => '郵政信箱',
+	'Country' => '國家',
+	'Description' => '描述',
+
+	'Created'=>'已創建',
+	'Approved'=>'已批准',
+	'Delivered'=>'已發送',
+	'Cancelled'=>'已取消',
+
+	'Currency' => '貨幣',
+	'LBL_BASE_CURRENCY' => '基準貨幣',
+
+	'Discount Percent' => '折扣率',
+	'Discount Amount' => '折扣金額',
+	'Item Discount Amount' => '折扣額項',
+	'Item Discount Percent' => '折扣率項',
+
+	'Due Date' => '交付日期',
+	'Due Date & Time' => '交付日期及時間',
+	'Email' => 'Mail 信箱',
+	'Secondary Email' => 'Mail 備用信箱',
+	'Other Email' => 'Mail 其他信箱',
+	'Email Opt Out' => '拒絕郵件打擾',
+
+	'Expected Close Date' => '預計關閉日期',
+
+	'Fax' => '傳真',
+
+	'Last Name' => '姓名',
+	'First Name' => '英文名稱',
+    //這是優先級
+	'High' => '高',
+	'Low' => '低',
+
+	'In Progress' => '處理中',
+
+	'Subject' => '主題',
+	'Shipping Address'=>'送貨地址',
+	'Shipping Po Box'=>'郵遞信箱',
+	'Shipping City'=>'鄉鎮市區',
+	'Shipping State'=>'縣/市',
+	'Shipping Code'=>'郵遞區號',
+	'Shipping Country'=>'國家',
+	'Terms & Conditions' => '條款及細則',
+	'Item Name' => '項目名稱',
+	'Quantity' => '數量',
+	'List Price' => '定價',
+	'Item Comment' => '評論',
+	'Tax1' => '稅1',
+	'Tax2' => '稅2',
+	'Tax3' => '稅3',
+	'Excise Duty' => '消費稅',
+	'Total' => '總計',
+	'Sub Total' => '小計',
+	'Tax Type' => '稅務類型',
+	'S&H Amount' => '運費和物流附加費',
+	'Status' => '狀態',
+	'Vendor Name'=>'供應商名稱',
+
+	'LBL_ADDRESS_INFORMATION' => '詳細地址',
+	'LBL_DESCRIPTION_INFORMATION' => '詳細介紹',
+	'LBL_TERMS_INFORMATION' => '條款及細則',
+	'LBL_PRICING_INFORMATION' => '價格信息',
+	'LBL_RELATED_PRODUCTS' => '產品明細',
+	'LBL_REMINDER_INFORMATION' => '提醒信息',
+
+	'LBL_FOLDER_SAVED' => '文件夾已保存',
+	'LBL_FOLDER_EXISTS' => '文件夾已存在',
+	'LBL_FOLDER_DELETED' => '文件夾已刪除',
+
+	'Lead Source' => '線索來源',
+	'Mobile' => '手機',
+
+	'Notify Owner' => '提醒負責人',
+
+	'State' =>  '縣/市',
+	'Po Box' => '郵政信息',
+	'Postal Code' => '郵遞區號',
+
+	'Potential Name' => '銷售機會名稱',
+	'Priority'=>'優先級',
+
+	'Product Name' => '產品名稱',
+	'Rating' => '評價',
+
+	'Related To'=>'關聯於',
+	'Type' => '類型',
+
+	'Reviewed'=>'評論',
+	'Salutation' => '稱謂',
+	'Street' => '街道',
+	'Support Start Date' => '支持開始日期',
+	'Support Expiry Date' => '支持到期日',
+	'Sales Start Date'=>'銷售開始日期',
+	'Sales End Date'=>'銷售結束日期',
+
+	//Dashboard list of widgets translation儀表板部件翻譯列表
+	'Open Ticktes' => '待確認的服務單',
+	'LBL_SELECT_STATUS' => '選擇狀態',
+	'LBL_BLANK' => '-空-',
+
+	//PageTitle translations
+	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM',
+
+	//Translations used in inventory modules for sopy address庫存模塊
+	'SINGLE_Accounts' => '客戶',
+	'SINGLE_Contacts' => '聯繫人',
+
+	//Weekdays in 3 letters translations
+	'LBL_Sun' => '週日',
+	'LBL_Mon' => '週一',
+	'LBL_Tue' => '週二',
+	'LBL_Wed' => '週三',
+	'LBL_Thu' => '週四',
+	'LBL_Fri' => '週五',
+	'LBL_Sat' => '週六',
+
+	//Months in 3 letters translations
+	'LBL_Jan' => '1月',
+	'LBL_Feb' => '2月',
+	'LBL_Mar' => '3月',
+	'LBL_Apr' => '4月',
+	'LBL_May' => '5月',
+	'LBL_Jun' => '6月',
+	'LBL_Jul' => '7月',
+	'LBL_Aug' => '8月',
+	'LBL_Sep' => '9月',
+	'LBL_Oct' => '10月',
+	'LBL_Nov' => '11月',
+	'LBL_Dec' => '12月',
+
+	'LBL_CALENDAR_SETTINGS' => '日程設置',
+
+	//Translations used in inventory modules for address
+	'SINGLE_Accounts' => '客戶',
+	'SINGLE_Contacts' => '聯繫人',
+	'HelpDesk' => '服務單',
+	'LBL_TAG_CLOUD' => '標籤',
+
+	'LBL_NO_RECORDS' => '沒有記錄',
+	'LBL_NO_RELATED' => '沒有相關',
+	'LBL_GLOBAL_SEARCH_MAX_MESSAGE' => '僅顯示在所有模塊中查詢的前100條記錄。如果要查看特定模塊的結果，請選擇相應模塊並搜索。',
+	'LBL_GLOBAL_SEARCH_MAX_MESSAGE_FOR_MODULE' => '僅顯示前100條記錄。如果未找到滿意的記錄，請使用高級搜索。',
+
+	// used in reports detail view在報告中使用的詳細信息視圖
+	'LBL_ACTION' => '操作',
+	'LBL_NOTE' => '注意',
+	'LBL_SELECT_OPTION' => '選擇一個選項',
+
+	//Module Manager
+	'LBL_TOOLTIP' => '提示工具管理',
+	'LBL_MODULE_SEQUENCE_NUMBERING' => '模塊序列編號',
+	'LBL_CUSTOM_FIELD_MAPPING' => '自定義字段映射',
+	'LBL_WEBFORMS' => 'Web表單',
+
+	//Compose Email Strings撰寫電子郵件字符串
+	'SINGLE_Emails' => 'Email',
+	'Emails' => 'Email',
+	'LBL_SELECT_EMAIL_IDS' => '選擇電子郵件地址',
+	'LBL_SUBJECT' => '主題',
+	'LBL_ATTACHMENT' => '附件',
+	'LBL_BROWSE_CRM' => '瀏覽CRM',
+	'LBL_SEND' => '發送',
+	'LBL_SAVE_AS_DRAFT' => '另存為草稿',
+	'LBL_GO_TO_PREVIEW' => '預覽',
+	'LBL_SELECT_EMAIL_TEMPLATE' => '選擇郵件模板',
+	'LBL_COMPOSE_EMAIL' => '撰寫電子郵件',
+	'LBL_TO' => '至',
+ 	'LBL_CC' => '抄送',
+   	'LBL_BCC' => '密送',
+   	'LBL_ADD_CC' => '添加抄送',
+   	'LBL_ADD_BCC' => '添加密送',
+	'LBL_MAX_UPLOAD_SIZE' => '最大上傳限制',
+	'LBL_EXCEEDED' => '已超出限制',
+	'LBL_OPERATION_NOT_PERMITTED' => '不允許操作',
+    'LBL_MERGE' => '合併',
+	'LBL_FIND_DUPLICATES' => '查找重複項',
+	'LBL_MERGING_CRITERIA_SELECTION' => '合併條件選擇',
+	'LBL_AVAILABLE_FIELDS' => '可用字段',
+	'LBL_MERGE_RECORDS_DESCRIPTION' => '合併後的主要記錄將被保留。您可以選擇的列值保留。其他的記錄將被刪除，但相關信息將被合併。',
+	'LBL_MERGE_RECORDS_IN' => '合併記錄在',
+	'LBL_FIELDS' => '字段',
+	'LBL_RECORD' => '記錄',
+	'LBL_NO_DUPLICATED_FOUND' => '沒有找到重複的記錄',
+	'LBL_MERGE_SELECT' => '合併選擇',
+/*
+	'Dear_Admin_tasks_not_been_completed' => '親愛的管理員，<br><br> 請注意，系統中有任務存在24小時之後仍未完成，<br>',
+	'LBL_ASSIGNED_TO' => '負責人',
+	'Task_sign'=>'謝謝，<br>技術服務團隊<br>',
+	'Task_Not_completed' => '任務未完成',
+	'Dear_Team' => '各位親,<br>',
+	'Dear_Team_Time_to_Party' => '<br>熱烈祝賀！在大家的共同努力下我們達成了10000元的銷售額！！！<br> 晚上一起去Happy吧！<br>',
+	'Task_Not_completed' => '任務未完成',
+	'Too_many_pending_tickets' => '太多待處理服務單',
+	'Dear_Admin_too_many_tickets_pending' => '親愛的管理員，<br> 這是系統發送的通知，有太多的服務單需要處理。請及時處理並解決。<br><br> 最誠摯的感謝和問候，<br>技術服務團隊<br>',
+	'Potential_Id' => '銷售機會ID：',
+	'Potential_Name' => '銷售機會名稱：',
+	'Big_Deal_Closed_Successfully' => '重大交易圓滿完成',
+	'Pending_Ticket_notification' => '待處理服務單通知',
+	'Kind_Attention' => '親愛的管理員，<br> 這是系統發送的友情提醒，編號 ',
+	'Thank_You_HelpDesk' => ' 的服務單尚未關閉。<br> 謝謝，<br>技術服務團隊<br>',
+	'Support_starting' => '支持開始',
+	'Hello_Support' => '您好! 支持服務開始',
+	'Congratulations' => '恭喜！我們對您的支持服務從今天開始',
+	'Support_Ending_Subject' => '注意：支持服務到期',
+	'Support_Ending_Content' => 'HI，親，<br><br> 這是來自系統的通知，此產品的支持服務即將於 <b>',
+	'kindly_renew' => '</b> 到期。請盡快續期。<br><br>最真摯的問候，<br>技術服務團隊<br>',
+
+	// webservices language app_strings
+	'Groups'=>'組',
+	'DocumentFolders'=>'文件資料夾',
+	'SINGLE_Groups'=>'組',
+	'SINGLE_DocumentFolders'=>'文件資料夾',
+	'SINGLE_Currency'=>'貨幣',
+	
+	//Report Detail View
+	'LBL_VIEW_DETAILS' => '查看詳細信息',
+	*/
+///////////////////////////////////////////////////////////補
+
+	//中文補強
+	'Recycle Bin' => '資源回收筒',
+	'Email Templates' => '電子郵件版型',
+	'SMSNotifier' => 'SMS系統狀態',
+	'LBL_CUSTOMIZE_MAIN_MENU' => '自訂主選單',
+	
+	
+	
+	
+	//sbproducts translation
+	'LBL_BACK_TO_PRODUCTS' => 'Back to products',
+
+	//Translations used for Export to Pdf
+	'Valid Date' => 'Valid Date',
+	'Phone: ' => 'Phone: ',
+	'Issued Date' => 'Issued Date',
+	'Shipping & Handling Charges' => 'Shipping & Handling Charges',
+	'Shipping & Handling Tax:' => 'Shipping & Handling Tax:',
+	'Discount'=>'Discount',
+	'Net Total' => 'Net Total',
+	'Product Code'=>'Product Code',
+	'Customer Name'=>'Customer Name',
+	'Price'=>'Price',
+	'Tax:' => 'Tax:',
+	'Contact Name' => '聯繫人名稱',
+	'Grand Total:' => 'Grand Total:',
+	'Fax: ' => 'Fax: ',
+	'Website: ' => 'Website: ',
+	'Tax' => 'Tax',
+	'LBL_ALPHABETS' => 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z',
+
+	//Realted tab strings
+	'Service Contracts' => 'Service Contracts',
+	'Projects' => 'Projects',
+	'Sales Order' => '銷售訂單',
+	'Purchase Order' => '採購訂單',
+	'List and Campaigns' => 'List and Campaigns',
+	'Project Tasks' => 'Project Tasks',
+	'Project Milestones' => 'Project Milestones',
+
+	'Labels Editor' => 'Labels Editor',
+	'LBL_IGNORE_EMPTY_VALUES' =>'Ignore empty values',
+
+	//Related tabs of Products
+	'Product Bundles' => '組合套餐',
+	'Parent Product' => '父系商品',
+
+	'LBL_MANAGE_USERS' => 'Manage Users',
+	'LBL_TRANSFER_OWNERSHIP' => 'Transfer Ownership',
+	'LBL_SELECT_RELATED_MODULES' => 'Select Related Modules',
+	'LBL_ASSIGNED_TO' => 'Assigned To',
+
+	//Report Detail View
+	'LBL_VIEW_DETAILS' => 'View Details',
+	//Comments Field Labels for Workflow
+	'Comment' => 'Comment',
+	'Last Comment' => 'Last Comment',
+	'Last 5 Comments' => 'Last 5 Comments',
+	'All Comments' => 'All Comments',
+
+//////////////////////////////////////////////////////補補	
+	
+);
+
+$jsLanguageStrings = array(
+	'JS_EMAIL_SERVER_CONFIGURATION' => '請在設置頁面中配置外發服務器',
+	'JS_SMS_SERVER_CONFIGURATION' => '請在SMS通知頁面配置短信通知設置',
+	'JS_PLEASE_SELECT_ONE_RECORD' => '請至少選擇一個記錄',
+
+	//Validation Error Message
+	'JS_PLEASE_ENTER_VALID_EMAIL_ADDRESS' => '請輸入一個有效的電子郵件地址',
+	'JS_CONTAINS_ILLEGAL_CHARACTERS' => '含有非法字符',
+	'JS_PHONE_NUMBER_LENGTH_EXCEEDED' => '電話號碼的長度超出限制',
+	'JS_ACCEPT_POSITIVE_NUMBER' => '只接受正數',
+	'JS_VALUE_SHOULD_BE_GREATER_THAN_ZERO' => '值應該大於零',
+	'JS_NUMBER_SHOULD_BE_LESS_THAN_32' => '數目應小於32',
+	'JS_PLEASE_ENTER_VALID_DATE' => '請輸入有效日期',
+	'JS_PLEASE_ENTER_VALID_TIME' => '請輸入有效時間',
+	'JS_INVALID_PAGE_NUMBER' => '頁碼無效',
+
+
+	'INVALID_NUMBER_OF' => '的數量無效',
+	'INVALID_NUMBER' => '數量無效',
+	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_DELETE' => '您確定要刪除嗎？',
+
+	'OVERWRITE_EXISTING_MSG1' => '需要用選定的',
+	'OVERWRITE_EXISTING_MSG2' => '的詳細地址覆蓋現有地址嗎？',
+	'SINGLE_Accounts' => '客戶',
+	'SINGLE_Contacts' => '聯繫人',
+
+	'LBL_DELETE_CONFIRMATION' => '您確定您要刪除嗎？', // This is added as duplicate as we need to show different message for different modules. Ex:Accounts has different message
+	'LBL_MASS_DELETE_CONFIRMATION' => '你確定要刪除選定的記錄嗎？',
+	'JS_LBL_SAVE' => '保存',
+	'JS_LBL_CANCEL' => '取消',
+	'JS_DUPLICTAE_CREATION_CONFIRMATION' => '此公司名稱已經存在。你想創建一個重複的記錄嗎？',
+
+	'SHOULD_BE_LESS_THAN_TODAY' => '今天之前必須發生',
+	'JS_PLEASE_SELECT_ATLEAST_ONE_OPTION' => '請至少選擇一個選項',
+	'JS_SELECT_MODULE' => '請選擇模塊',
+	'JS_PLEASE_SELECT_ATLEAST_ONE_MANDATORY_FIELD' => '請至少選擇一個必填字段',
+	'JS_SELECT_MODULE' => '請選擇一個模塊',
+	'JS_PLEASE_ENTER_INTEGER_VALUE' => '請輸入整數值',
+	'JS_PLEASE_ENTER_DECIMAL_VALUE' => '請輸入十進制值',
+
+	'JS_SHOULD_BE_LESS_THAN_CURRENT_DATE' => '應早於當前日期',
+	'JS_SHOULD_BE_GREATER_THAN_CURRENT_DATE' => '應晚於當前日期',
+	'JS_SHOULD_BE_GREATER_THAN_OR_EQUAL_TO' => '應大於或等於',
+    'JS_SHOULD_BE_LESS_THAN_OR_EQUAL_TO' => '應小於或等於',
+	'JS_PERCENTAGE_VALUE_SHOULD_BE_LESS_THAN_100' => '百分比（％）的值應小於100',
+	'JS_ACCEPT_ONLY_NUMBER' => '只接受數字',
+	'JS_THIS_FILE_HAS_ALREADY_BEEN_SELECTED' => '此文件已被選中',
+	'JS_MAX_FILE_UPLOAD_EXCEEDS' => '文件最大上傳超過',
+	'JS_THIS_DOCUMENT_HAS_ALREADY_BEEN_SELECTED' => '此文件已附加',
+	'JS_SHOULD_BE_GREATER_THAN_OR_EQUAL_TO' => '應大於或等於',
+
+
+	//Roles
+	'JS_FAILED_TO_SAVE' => '更改保存到服務器時失敗',
+
+	//Import Translations導入
+	'JS_IMPORT_FILE_CAN_NOT_BE_EMPTY' => '導入文件不能為空',
+	'JS_PLEASE_SELECT_ONE_FIELD_FOR_MERGE' => '請至少選擇一個符合合併標準的字段',
+	'JS_MAP_NAME_CAN_NOT_BE_EMPTY' => '映射名稱不能為空',
+	'JS_MAP_NAME_ALREADY_EXISTS' => '映射名稱已存在',
+	'JS_SELECT_FILE_EXTENSION' => '請選擇具有以下擴展名的文件：',
+	'JS_UPLOADED_FILE_SIZE_SHOULD_BE_LESS_THAN' => '上傳文件尺寸應小於',
+	'JS_UPLOADED_FILE_SIZE_EXCEEDS' => '上傳的文件尺寸超過',
+	'JS_PLEASE_SPLIT_FILE_AND_IMPORT_AGAIN' => '請將文件分割為較小的文件，並再次導入。',
+	'JS_FIELD_MAPPED_MORE_THAN_ONCE' => '字段映射超過一次',
+	'JS_MAP_MANDATORY_FIELDS' => '請映射必填字段',
+	'JS_PLEASE_ENTER_SOME_VALUE' => '請輸入一些值進行搜索',
+
+	//Select2 elements validation message
+	'JS_YOU_CAN_SELECT_ONLY'=> '你只能選擇',
+	'JS_ITEMS' => '項目',
+
+	'JS_LBL_PERMISSION' => '權限',
+	'JS_CHECK_FILE_INTEGRITY' => '檢查文件完整性',
+	'JS_DUPLICATE_RECORD' => '重複記錄',
+
+	//advance filter checkbox type condition values
+	'JS_IS_ENABLED' => '已啟用',
+	'JS_IS_DISABLED' => '已禁用',
+
+	'JS_PLEASE_ENTER_SOME_TEXT_FOR_COMMENT' => '請輸入一些文字進行評論',
+	'JS_LBL_COMMENT_VALUE_CANT_BE_EMPTY' => '評論值不能為空',
+	'JS_REQUIRED_FIELD' => '*此字段為必填',
+	'JS_CAN_NOT_REMOVE_DEFAULT_WIDGET' => '不能刪除默認的小工具',
+	'JS_SHOULD_BE_LESS_THAN_CURRENT_DATE' => '應小於當前日期',
+	'JS_NO_CREATE_OR_NOT_QUICK_CREATE_ENABLED' => '無創建權限或未啟用快速創建',
+
+	//Image Action
+	'LBL_IMAGE_DELETED_SUCCESSFULLY' => '圖片刪除成功',
+	'LBL_IMAGE_NOT_DELETED' => '圖片未刪除',
+	'LBL_YES' => '是',
+	'LBL_NO' => '否',
+	'AM' => 'AM',
+	'PM' => 'PM',
+ 	'JS_ERROR' => '錯誤',
+	'JS_INFORMATION' => '信息',
+	'JS_DO_NOT_HAVE_AN_EMAIL_ID' => '沒有電子郵件地址',
+	'NONE_OF_THE_FIELD_VALUES_ARE_CHANGED_IN_MASS_EDIT' => '在批量編輯時沒有字段值被修改',
+
+	//Notification messages for inventory module庫存模塊的通知消息
+	'JS_PLEASE_SELECT_AN_ACCOUNT_TO_COPY_ADDRESS' => '請選擇一個公司複製地址',
+	'JS_PLEASE_SELECT_AN_CONTACT_TO_COPY_ADDRESS' => '請選擇一個聯繫人複製地址',
+	'JS_SELECTED_ACCOUNT_DOES_NOT_HAVE_AN_ADDRESS' => '選定的公司沒有可複製的地址',
+	'JS_SELECTED_CONTACT_DOES_NOT_HAVE_AN_ADDRESS' => '選定的聯繫人沒有可複製的地址',
+	'JS_PLEASE_ENTER_PRIMARY_EMAIL_VALUE_TO_ENABLE_PORTAL_USER' => '請輸入主電子郵件地址以啟用&#8203;&#8203;門戶用戶',
+	'JS_PRIMARY_EMAIL_FIELD_DOES_NOT_EXISTS' => '主要電子郵件字段未填寫，不能啟用門戶用戶',
+
+	//Tag Cloud validation messages
+	'JS_PLEASE_ENTER_A_TAG' => '請輸入一個標籤',
+	'JS_TAG_NAME_ALREADY_EXIST' => '標籤名稱已存在',
+	'JS_MAX_TAG_LENGTH_EXCEEDS' => '標籤長度超過最大尺寸限制',
+
+	'JS_NO_VIEW_PERMISSION_AFTER_SAVE'=> '保存後你將沒有權限查看此記錄。你想繼續嗎？',
+	'JS_NO_RECORDS_RELATED_TO_THIS_FILTER' => '此篩選器沒有相關記錄',
+
+	// Calendar Reminder popup
+	'JS_START_DATE_TIME' => '開始日期和時間',
+	'JS_END_DATE_TIME' => '結束日期及時間',
+	'JS_POSTPONE' => '推遲',
+	'JS_MESSAGE' => '信息',
+
+	'JS_NO_VIEW_PERMISSION_AFTER_SAVE'=> '保存後你將沒有權限查看此記錄。你想繼續嗎？',
+
+	//Settings page translations
+	'JS_SUCCESSFULLY_PINNED' => '快捷方式添加成功',
+	'JS_SUCCESSFULLY_UNPINNED' => '成功刪除快捷方式',
+	'JS_SHORTCUT_ALREADY_ADDED' => '此快捷方式已添加',
+	'JS_MESSAGE' => '信息',
+
+	//Module Manager
+	'JS_MODULE_ENABLED' => '啟用模塊',
+	'JS_MODULE_DISABLED' => '禁用模塊',
+
+	//Cron tasks 定時任務
+	'JS_VALUE_SHOULD_NOT_BE_LESS_THAN' => '定時任務的頻率應不小於',
+	'JS_MINUTES' => '分鐘',
+
+	//PickList
+	'JS_ITEM_RENAMED_SUCCESSFULLY' => '菜單項更名成功',
+	'JS_ITEM_ADDED_SUCCESSFULLY' => '菜單項添加成功',
+	'JS_NO_ITEM_SELECTED' => '未選擇菜單項',
+	'JS_MORE_THAN_ONE_ITEM_SELECTED' => '選擇了多個菜單項',
+	'JS_ITEMS_DELETED_SUCCESSFULLY' => '菜單項刪除成功',
+	'JS_DUPLIACATE_ENTRIES_FOUND_FOR_THE_VALUE' => '找到該值的重複條目',
+	'JS_SELECT_RECORDS_TO_MERGE_FROM_SAME_GROUP' => '你必須選擇同組中的記錄進行合併',
+	'JS_SELECT_ATLEAST_TWO_RECORD_FOR_MERGING' => '至少選擇兩個記錄合併',
+	'JS_ALLOWED_TO_SELECT_MAX_OF_THREE_RECORDS' => '你可以選擇最多三個記錄',
+	//Notification message for dashboard widget delete
+	'JS_ARE_YOU_SURE_TO_DELETE_WIDGET' => '您確定要刪除小工具',
+
+	//User Password
+	'JS_PASSWORD_INCORRECT_OLD'=>'舊密碼不正確，請重新輸入。',
+	'JS_PASSWORD_CHANGED_SUCCESSFULLY' => '密碼修改成功。',
+	'JS_REENTER_PASSWORDS'=>'請重新輸入密碼。「新密碼」和「確認密碼」的值不匹配。',
+	
+);
